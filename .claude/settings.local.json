@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npx expo:*)",
+      "Bash(npx kill-port:*)",
+      "Bash(netstat -ano)",
+      "Bash(findstr :8081)",
+      "Bash(xargs taskkill:*)",
+      "Bash(npx tsc:*)",
+      "Bash(find 'C:\\\\Users\\\\Jacob o driscoll\\\\streakly\\\\node_modules\\\\expo-file-system\\\\src' -name *.ts)",
+      "Bash(cd:*)"
+    ]
+  }
+}

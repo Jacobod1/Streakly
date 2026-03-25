@@ -1,0 +1,64 @@
+# ─── Dependencies ────────────────────────────────────────────────────────────
+node_modules/
+
+# ─── Expo ────────────────────────────────────────────────────────────────────
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# ─── Native build output ─────────────────────────────────────────────────────
+/ios/
+/android/
+.kotlin/
+*.orig.*
+
+# ─── Drizzle ─────────────────────────────────────────────────────────────────
+# Keep drizzle/migrations.js and SQL files (they should be committed)
+# Exclude only the auto-snapshot meta if you prefer clean diffs:
+# drizzle/meta/
+
+# ─── Metro / React Native ────────────────────────────────────────────────────
+.metro-health-check*
+.metro-cache/
+
+# ─── Secrets & credentials ───────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+google-services.json
+GoogleService-Info.plist
+
+# ─── Debug logs ──────────────────────────────────────────────────────────────
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# ─── TypeScript ──────────────────────────────────────────────────────────────
+*.tsbuildinfo
+
+# ─── OS generated ────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ─── Editors ─────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.history/
+
+# ─── EAS Build ───────────────────────────────────────────────────────────────
+.eas/
